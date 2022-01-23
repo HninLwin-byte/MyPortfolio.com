@@ -11398,6 +11398,7 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
+
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
@@ -11420,7 +11421,69 @@ header.masthead h1, header.masthead .h1 {
     font-size: 3.5rem;
   }
 }
+header.masthead1{
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead1 h1, header.masthead .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.masthead1 {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead1 p {
+    font-size: 1.15rem;
+  }
+  header.masthead1 h1, header.masthead .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead1 h1, header.masthead1 .h1 {
+    font-size: 3.5rem;
+  }
+}
 
+header.masthead2{
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masterhead2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead2 h1, header.masthead2 .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.masthead2 {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead2 p {
+    font-size: 1.15rem;
+  }
+  header.masthead2 h1, header.masthead .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead2 h1, header.masthead2 .h1 {
+    font-size: 3.5rem;
+  }
+}
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
 }
@@ -11456,6 +11519,34 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+#portfolio .img .Volunteering{
+ height:100px;
+}
 
+nav.exit{
+  margin : 100px 100px;
+  color : black;
+  padding: 100px 100px;
+  text-align: center;
 
+}
+.carousel-item{
+  height:300px;
 
+}
+
+.carousel-item img{
+  position : absolute;
+  top:0;
+  left:0;
+  min-height: 300px;
+}
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+
+}
+#img-thumbnail{
+  margin-top: 500px;
+}
